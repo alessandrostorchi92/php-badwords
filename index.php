@@ -42,7 +42,7 @@ echo isset($_POST['badword']) ? $_POST['badword'] : "";
 
             <!-- Utilizzo il method "POST" per non far vedere nell'url il contenuto inserito nel form dall'utente e anche perchè il method "GET" possiede delle restrizioni sulla lunghezza dei dati -->
 
-            <form action="" method="POST">
+            <form action="output.php" method="POST">
 
                 <div class="card-body">
 
