@@ -2,8 +2,7 @@
 
 <?php
 
-echo isset($_POST['paragraph']) ? $_POST['paragraph'] : "";
-echo isset($_POST['badword']) ? $_POST['badword'] : "";
+// Controllo dell'output del form: echo isset($_POST['paragraph']) ? $_POST['paragraph'] : ""; , echo isset($_POST['badword']) ? $_POST['badword'] : "";
 
 ?>
 
